@@ -168,9 +168,11 @@ function clearCart() {
   argentinaJersey = 0;
   portugalJersey = 0;
 
-  updateCart();
-
-  alert("Your cart has been cleared!");
+  document.getElementById("cartCount").innerText = 0;
+  document.getElementById("cartTotal").innerText = 0;
+  document.getElementById("discountAmount").innerText = 0;
+  document.getElementById("finalTotal").innerText = 0;
+  document.getElementById("cartItems").innerHTML = "<p>Your cart has been cleared!</p>";
 
 }
 
