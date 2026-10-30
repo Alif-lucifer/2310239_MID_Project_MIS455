@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Athletic Mania - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Name: Yousuf Abdullah | ID: 2310239 -->
+
+  <!-- Header -->
+  <header>
+    <h1>Athletic Mania</h1>
+    <p>Your one-stop shop for quality sports gear</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Products Introduction -->
+
+    <h2>Our Products</h2>
+
+    <p>
+      Browse our collection of sports products. Every item is carefully
+      selected for quality, comfort and long-lasting use. Prices are in Tk.
+    </p>
+
+    <p>
+      Click the "Add to Cart" button under any product to add it to your cart.
+      Your cart details will automatically appear in the shopping cart below.
+    </p>
+
+
+
+    <!-- Product Grid Section -->
+
+    <section class="grid-container">
+
+      <!-- Product 1: Football -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Football_Photo1_Abdullah.png" alt="Football">
+        </div>
+
+        <h3>Football</h3>
+
+        <p>The classic Telstar design soccer ball.</p>
+
+        <p class="price">Tk 1,500</p>
+
+        <button class="btn" onclick="addToCart(1500, 'Football')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 2: Cricket Bat -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Cricket_Photo2_Abdullah.png" alt="Cricket Bat">
+        </div>
+
+        <h3>Cricket Bat</h3>
+
+        <p>
+          High-quality cricket bat for practice
+          and competitive matches.
+        </p>
+
+        <p class="price">Tk 2,500</p>
+
+        <button class="btn" onclick="addToCart(2500, 'Cricket Bat')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 3: Basketball -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Basketball_Photo6_Abdullah.png" alt="Basketball">
+        </div>
+
+        <h3>Basketball</h3>
+
+        <p>
+          Quality basketball with a comfortable grip
+          and durable surface.
+        </p>
+
+        <p class="price">Tk 1,500</p>
+
+        <button class="btn" onclick="addToCart(1500, 'Basketball')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 4: Running Shoes -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Running_shoe_Photo7_Abdullah.png" alt="Running Shoes">
+        </div>
+
+        <h3>Running Shoes</h3>
+
+        <p>
+          Comfortable running shoes suitable for
+          everyday fitness activities.
+        </p>
+
+        <p class="price">Tk 3,500</p>
+
+        <button class="btn" onclick="addToCart(3500, 'Running Shoes')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 5: Badminton Racket -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Badminton_racket8_Abdullah.png" alt="Badminton Racket">
+        </div>
+
+        <h3>Badminton Racket</h3>
+
+        <p>
+          Lightweight racket for better control
+          and comfortable gameplay.
+        </p>
+
+        <p class="price">Tk 1,800</p>
+
+        <button class="btn" onclick="addToCart(1800, 'Badminton Racket')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 6: Dumbbell Set -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Dumbbell_Set_Photo9_Abdullah.png" alt="Dumbbell Set">
+        </div>
+
+        <h3>Dumbbell Set</h3>
+
+        <p>
+          Durable fitness equipment for strength
+          training and workouts.
+        </p>
+
+        <p class="price">Tk 2,200</p>
+
+        <button class="btn" onclick="addToCart(2200, 'Dumbbell Set')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 7: Brazil Jersey -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Brazil_Jersey_Photo_3_Abdullah.png" alt="Brazil Jersey">
+        </div>
+
+        <h3>Brazil Jersey</h3>
+
+        <p>
+          Official player edition jersey for Brazilian
+          national team fans.
+        </p>
+
+        <p class="price">Tk 4,000</p>
+
+        <button class="btn" onclick="addToCart(4000, 'Brazil Jersey')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 8: Argentina Jersey -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Argentina_Jersey_Photo_4_Abdullah.png" alt="Argentina Jersey">
+        </div>
+
+        <h3>Argentina Jersey</h3>
+
+        <p>
+          Official player edition jersey for Argentine
+          national team fans.
+        </p>
+
+        <p class="price">Tk 3,500</p>
+
+        <button class="btn" onclick="addToCart(3500, 'Argentina Jersey')">
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- Product 9: Portugal Jersey -->
+
+      <div class="product-card">
+
+        <div class="image-box">
+          <img src="images/Portugal_jersey_Photo_5_Abdullah.png" alt="Portugal Jersey">
+        </div>
+
+        <h3>Portugal Jersey</h3>
+
+        <p>
+          Official player edition jersey for Portuguese
+          national team fans.
+        </p>
+
+        <p class="price">Tk 3,000</p>
+
+        <button class="btn" onclick="addToCart(3000, 'Portugal Jersey')">
+          Add to Cart
+        </button>
+
+      </div>
+
+    </section>
+
+   <section class="cart-box">
+  <h2>Your Shopping Cart</h2>
+  <p>Click "Show Cart" to see your selected products, total price and 10% discount.</p>
+  <p class="cart-items">Cart Items: <span id="cartCount">0</span></p>
+
+  <button class="btn" onclick="showCart()">Show Cart</button>
+  <button class="btn btn-dark" onclick="clearCart()">Clear Cart</button>
+
+  <div id="cartDetails" class="cart-details">
+    <h3>Your Selected Products</h3>
+    <div id="cartItems">
+      <p>Your cart is empty. Add some products!</p>
+    </div>
+    <hr>
+    <p>Total Price: Tk <span id="cartTotal">0</span></p>
+    <p>Discount (10%): Tk <span id="discountAmount">0</span></p>
+    <p class="final">Final Payable Amount: Tk <span id="finalTotal">0</span></p>
+  </div>
+</section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p>2026 Athletic Mania. All rights reserved.</p>
+
+    <p>Built by Alif</p>
+
+    <p>
+      Email: alif@athleticmania.com |
+      Phone: +880 123 456 789
+    </p>
+
+  </footer>
+
+  <!-- JavaScript -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
